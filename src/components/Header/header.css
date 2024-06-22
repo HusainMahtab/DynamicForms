@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+}
+
+
+.navbar a {
+    color:black;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: cursive;
+    font-weight:500;
+}
+
+
+.navbar a:hover {
+    border: 1px solid purple;
+    border-radius: 10px;
+}
+
+
+.App {
+    margin-top: 60px; 
+}
